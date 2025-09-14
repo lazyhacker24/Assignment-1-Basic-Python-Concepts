@@ -2,15 +2,15 @@
 # Task 1: Perform Basic Mathematical Operations
 # Name - Pardeep
 
-# Also Check My screenshot
-a = 24
-b = 12
+# Taking input from user
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
 # Addition
 print("# Addition")
 print(a + b)
 
-# Subtraction (use \n to get this value below of first if need front so we can use \t)
+# Subtraction
 print("\n# Subtraction")
 print(a - b)
 
@@ -22,7 +22,6 @@ print(a * b)
 print("\n# Division")
 print(a / b)
 
-# Division (integer result without decimal, using // to time subtract symbol)
+# Division (integer result without decimal)
 print("\n# Division (without decimal)")
 print(a // b)
-
